@@ -8,7 +8,7 @@ package complexityQuestions;
  */
 public class LongestSubSequenceTest {
 	
-	int arr[] = {15, 27, 14, 38, 26, 55, 46, 65, 85, 28, 30, 29, 32, 31};
+	int arr[] = {15,10,7,6,9,10,8,30,33,32,34,37,38,35,36};
 	
 	/**
 	 * Bubble sort Complexity O(n^2)
@@ -116,7 +116,13 @@ public class LongestSubSequenceTest {
 	 */
 	void traverseArray(StoreLength[] array)
 	{
-		int firstNumber = 0, numberToBeAdded = 0, max=0;
+		int firstNumber = 0, numberToBeAdded = 0, max=0; 
+		
+		if(array[0] == null)
+		{
+			System.out.println("No Sub Sequence found");
+			System.exit(0);
+		}
 		
 		for(int i=0;i<array.length;i++)
 		{
