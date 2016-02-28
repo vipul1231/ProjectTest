@@ -38,6 +38,7 @@ public class LongestSequenceSubString {
 		Set<String> hashSet = new LinkedHashSet<>();
 		String[] array = str.split("");
 		
+		//Complexity O(n)
 		for(int i=0;i<array.length;i++)
 		{
 		   hashSet.add(array[i]);
@@ -48,6 +49,7 @@ public class LongestSequenceSubString {
 		int length = uniqueCharcterArray.length; 
 		String[] output = new String[length];
 		
+		//Complexity O(k)
 		for(int i=0;i<length;i++)
 		{
 			if((i+(order-1)) > uniqueCharcterArray.length-1)
