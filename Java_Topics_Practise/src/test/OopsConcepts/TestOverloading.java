@@ -1,10 +1,8 @@
 package test.OopsConcepts;
 
-import java.sql.SQLException;
-
 public class TestOverloading {
     
-    private int calculateSum(int a, int b) throws SQLException{
+    private int calculateSum(int a, int b) throws Exception{
 	System.out.println("From int");
 	System.out.println(a+b);
 	return a+b;
@@ -25,7 +23,7 @@ public class TestOverloading {
 	TestOverloading object = new TestOverloading();
 	try {
 	    object.calculateSum(1, 2);
-	} catch (SQLException e) {
+	} catch (Exception e) {
 	    // TODO Auto-generated catch block
 	    e.printStackTrace();
 	}
