@@ -1,5 +1,7 @@
 package com.hackerrank.Implementation;
 
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.util.Scanner;
 
 /**
@@ -71,6 +73,13 @@ public class GcdOfNumber {
     public static void main(String[] args){
 	GcdOfNumber gcdOfNumber = new GcdOfNumber();
 	Scanner scanner = new Scanner(System.in);
+	try {
+	    PrintStream printStream = new PrintStream("output.txt");
+	    System.setOut(printStream);
+	} catch (FileNotFoundException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	}
 	
 	int count = scanner.nextInt();
 	int[] output = new int[count];
