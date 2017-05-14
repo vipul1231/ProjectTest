@@ -15,7 +15,7 @@ public class MatrixRotation {
 	int row = scanner.nextInt();
 	int column = scanner.nextInt();
 	int[][] matrix = new int[row][column];
-	int rotations = scanner.nextInt();
+	//int rotations = scanner.nextInt();
 	for(int i=0;i<row;i++){
 	    
 	    for(int j=0;j<column;j++){
@@ -44,7 +44,7 @@ public class MatrixRotation {
 	int constantRow = row;
 	int constantColumn = column;
 	int row_1 = 0;
-	int column_1 = 0;
+	//int column_1 = 0;
 	boolean rowTraversal = true;
 	boolean  columnTraversal = false;
 	while(true){
