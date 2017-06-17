@@ -44,7 +44,8 @@ public class Anagram {
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	Anagram object = new Anagram();
-	String[] input = {"cat", "dog", "tac", "god", "act"};
+	String[] input = {"geeksquiz", "geeksforgeeks", "abcd", 
+                "forgeeksgeeks", "zuiqkeegs"};
 	int[] output = new int[input.length];
 	int count = 0;
 	//Complexity n
