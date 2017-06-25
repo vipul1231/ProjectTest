@@ -37,59 +37,35 @@ public class Amazon {
 
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
+	Amazon amazon = new Amazon();
 	Scanner scanner = new Scanner(System.in);
 	int numberOfTest = scanner.nextInt();
 	
-	int numberOfMeet = 1;
-	boolean notMet = true;
 	for(int i=0;i<numberOfTest;i++){
 	    
 	    int A = scanner.nextInt();
-	    int nextPerson =A;
 	    int B = scanner.nextInt();
-	    int numberOfFriends = scanner.nextInt();
+	    int N = scanner.nextInt();
 	    
-	    /*int steps = 0;
-	    
-	    if(A == B){
-		steps = 1;
-	    }
-	    else {
-		steps = (B+1)-A;
-	    }*/
-	    
-	    nextPerson = B;
-	    //numberOfMeet++;
-	    while(notMet){
-		
-		
-		nextPerson = nextPerson+1;
-		
-		if(nextPerson == A){
-		    break;
-		}
-		
-		if(nextPerson <=numberOfFriends){
-		    numberOfMeet++;
-		    
-		}
-		
-		else if(nextPerson > numberOfFriends){
-		    nextPerson = nextPerson - numberOfFriends;
-		    if(nextPerson !=A){
-			numberOfMeet++;
-		    }
-		}
-		
-		if(nextPerson == A){
-		    break;
-		}
-		
+	    int pos = A+B;
+	    int c = 1;
+	    while(pos!=A){
+		pos = (pos + B)%N;
+		c++;
 	    }
 	    
-	    System.out.println(numberOfMeet);
+	    
+	    System.out.println(c);
+	    
 	}
 	scanner.close();
     }
-
+    
+    void initializeArray(int[] array){
+	
+	for(int i=0;i<array.length;i++){
+	    array[i] = i;
+	}
+    }
+   
 }
