@@ -2,90 +2,49 @@ package test.OopsConcepts;
 
 import test.AccessModifiers.ProtectedAccessModifiers;
 
+interface XZ {
+    	void test();
+}
+
 class A extends ProtectedAccessModifiers{
     
-    
-    
-    /**
-     * Example ref
-     * 
-     * @param i
-     */
-    public A(int i){
-	System.out.println(1);
-    }
-    
-    /**
-     * Example ref
-     */
-    public A(){
-	this(10);
-	System.out.println(2);
-    }
-    
-    /**
-     * Example ref
-     */
-    void A(){
-	this.A(10);
-	System.out.println(3);
-    }
-    
-    void A(int i){
-	System.out.println(4);
-    }
-    
-    /**
-     * Normal Overriding
-     */
     void test(){
-	System.out.println(sumOfNumber());
+	System.out.println("test");
     }
     
-    /**
-     * Static overrding
-     */
-    static void staticTest(Number a){
-	System.out.println("Static parent");
-    }
-    
-    void method1(Number a){
-	System.out.println("Number :"+a);
+    static void test1(){
+	System.out.println("test1");
     }
     
 }
 
 public class TestOverriding extends A{
     
-    @Override
-    protected void test() throws RuntimeException{
-	   System.out.println("calling parent test");
-	   super.test();
+    void test(){
+	System.out.println("Base Test");
     }
     
-    static void staticTest(Double a){
-	System.out.println("Static base");
-    }
-    
-    void method2(Integer d){
-	System.out.println("Double :"+d);
-    }
-    
-    void method2(Number n){
-	System.out.println("Number :"+n);
+    static void test1(){
+	System.out.println("Base test1");
     }
    
     public static void main(String[] args){
 	
-	TestOverriding object = new TestOverriding();
-	object.method2((short) 12);
-	//object.test();	
+	A object = new TestOverriding();
 	
-	//object.staticTest();
+	object.test();
+	object.test1();
 	
-	//A a = (A) object;
-	//a.staticTest();
+	TestOverriding.test1();
+	A.test1();
 	
-	new A();
+	System.out.println(new XZ() {
+	    
+	    public void test() {
+		// TODO Auto-generated method stub
+		
+	    }
+	});
+	
     }
 }
