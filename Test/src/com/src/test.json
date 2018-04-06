@@ -1,0 +1,1328 @@
+{"players" : [
+	{
+		"playerID":10101010,
+		"firstName":"Johnathon",
+		"middleName":"K",
+		"lastName":"Smith",
+		"preferredName":"John",
+		"cardId": "112233",
+		"dateOfBirth":"2015/10/19 12:00:00",
+		"city":"Las Vegas",
+		"state":"NV",
+		"country":"United States of America",
+		"creditAccount":"No",
+		"ranking":"Preferred",
+		"siteID": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 1068,
+		"lastName": "Yazdani",
+		"firstName": "Aria",
+		"middleName": "AZ",
+		"preferredName": "Aria",
+		"cardId": "112244",
+		"dateOfBirth": "01/21/1970",
+		"city": "Las Vegas",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 1069,
+		"lastName": "oso",
+		"firstName": "Iseais",
+		"middleName": "Mexican",
+		"preferredName": "oso",
+		"cardId": "112255",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123001,
+		"lastName": "Shigley",
+		"firstName": "John",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112201",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123002,
+		"lastName": "Kaushik",
+		"firstName": "Rahul",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112202",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123003,
+		"lastName": "Wessel",
+		"firstName": "Scott",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112203",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123004,
+		"lastName": "Wong",
+		"firstName": "Francis",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112204",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123005,
+		"lastName": "Chan",
+		"firstName": "Susan",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112205",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123006,
+		"lastName": "Ip",
+		"firstName": "Bonnie",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112206",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123007,
+		"lastName": "Ho",
+		"firstName": "Winnie",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112207",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123008,
+		"lastName": "Croft",
+		"firstName": "Graeme",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112208",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123009,
+		"lastName": "Harwood",
+		"firstName": "Bob",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112209",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123010,
+		"lastName": "Han",
+		"firstName": "Tien",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112210",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123011,
+		"lastName": "Ung",
+		"firstName": "Lucas",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112211",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123012,
+		"lastName": "Cheang",
+		"firstName": "Ringo",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "013042101515584713",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123013,
+		"lastName": "Leong",
+		"firstName": "May",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "013042121510713503",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123014,
+		"lastName": "Singh",
+		"firstName": "Surinder",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112214",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123015,
+		"lastName": "Besterman",
+		"firstName": "Brian",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "112215",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123016,
+		"lastName": "Moore",
+		"firstName": "Carolyn",
+		"middleName": "",
+		"preferredName": "John",
+		"cardId": "00876846987946975",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau"
+	},
+	{
+		"playerID": 123017,
+		"lastName": "Jain",
+		"firstName": "Sachin",
+		"middleName": "",
+		"preferredName": "Sachin",
+		"cardId": "12351365014739012406",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123018,
+		"lastName": "Kapil",
+		"firstName": "Jitander",
+		"middleName": "",
+		"preferredName": "Jitander",
+		"cardId": "12351365014738832353",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123019,
+		"lastName": "A Boyd",
+		"firstName": "Scott",
+		"middleName": "",
+		"preferredName": "Scott",
+		"cardId": "12351365014739025210",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123020,
+		"lastName": "Gupta",
+		"firstName": "Priyanka",
+		"middleName": "",
+		"preferredName": "Priyanka",
+		"cardId": "12351365014738822290",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 123021,
+		"lastName": "Moore",
+		"firstName": "Carolyn",
+		"middleName": "",
+		"preferredName": "Carolyn",
+		"cardId": "12351365014738766381",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20001,
+		"lastName": "User1",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User1",
+		"cardId": "12351365014738766382",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20002,
+		"lastName": "User2",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User2",
+		"cardId": "12351365014738766383",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20003,
+		"lastName": "User3",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User3",
+		"cardId": "12351365014738766384",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20004,
+		"lastName": "User4",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User4",
+		"cardId": "12351365014738766385",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20005,
+		"lastName": "User5",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User5",
+		"cardId": "12351365014738766386",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20006,
+		"lastName": "User6",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User6",
+		"cardId": "12351365014738766387",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20007,
+		"lastName": "User7",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User7",
+		"cardId": "12351365014738766388",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20008,
+		"lastName": "User8",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User8",
+		"cardId": "12351365014738766389",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20009,
+		"lastName": "User9",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User9",
+		"cardId": "12351365014738766390",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	},
+	{
+		"playerID": 20010,
+		"lastName": "User10",
+		"firstName": "LTE",
+		"middleName": "",
+		"preferredName": "LTE User10",
+		"cardId": "12351365014738766391",
+		"dateOfBirth": "01/21/1147",
+		"city": "Reno",
+		"state": "NV ",
+		"country": "United States of America",
+		"creditAccount": "No",
+		"ranking": "Preferred",
+		"siteId": 1,
+		"siteDescription": "Macau",
+		"stopCodes": {
+			"propertyStopCodes": [
+				{
+					"site": {
+						"siteID": 1,
+						"siteDescription": "Macau"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				},
+				{
+					"site": {
+						"siteID": 2,
+						"siteDescription": "Cotai"
+					},
+					"code": [
+						{
+							"stopCodeID": 4,
+							"stopCodeDescription": "No Signature",
+							"stopCodePriority": 10
+						},
+						{
+							"stopCodeID": 5,
+							"stopCodeDescription": "ID Not Scanned",
+							"stopCodePriority": 10
+						}
+					]
+				}
+			]
+		}
+	}
+]}
