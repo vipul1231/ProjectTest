@@ -27,7 +27,7 @@ public class LensKart {
 				}
 			}
 			
-			quickSort.doQuickSort(array, 0, array.length-1);
+			//quickSort.doQuickSort(array, 0, array.length-1);
 			
 			System.out.println(quickSort);
 			

@@ -347,7 +347,6 @@ public class BFS {
 		}
 		
 		if(node.leftSubTree == null && node.rightSubTree == null){
-			//We got the leaf node
 			printPath(len);
 		}
 		

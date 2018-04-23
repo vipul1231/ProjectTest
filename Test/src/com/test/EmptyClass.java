@@ -1,11 +1,16 @@
 package com.test;
 
-
 public class EmptyClass {
+	
 
+	public <E> void printArray(E obj){
+		
+	}
+	
+	
 	public static void main(String[] args){
 		
-		
+	
 		int[] ticket = {2,6,3,4,5};
 		int[] duplicate = new int[ticket.length];
 		
