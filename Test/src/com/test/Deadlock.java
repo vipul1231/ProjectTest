@@ -34,11 +34,11 @@ public class Deadlock implements Runnable{
 		
 		else if(Thread.currentThread().getName().equals("2")){
 			
-			synchronized (lock2) {
+			synchronized (lock1) {
 				
 				System.out.println("Acquired on lock1.");
 				
-				synchronized (lock1) {
+				synchronized (lock2) {
 					
 					System.out.println("Acquired on lock2.");
 				}

@@ -21,16 +21,36 @@ public class MaxArraySum {
 
 		int n = Integer.parseInt(scanner.nextLine());
 		List<Integer> list = null;
+		int[] array = null;
 		for(int i=0;i<n;i++){
 			
 			scanner.nextLine();
 			list = Arrays.asList(scanner.nextLine().split(" ")).stream().map(Integer::parseInt).collect(Collectors.toList());
-			int[] array = list.stream().mapToInt(h->h).toArray();
+			array = list.stream().mapToInt(h->h).toArray();
 			maxArraySum.finalList = list;
 			maxArraySum.sort(array, 0, array.length-1);
+	
+		
+		//now iterate through array and find.
+		
+		double negativeSum = 0;
+		double maxSum = 0;
+		for(int j=0;j<array.length;j++){
+			int number = array[j];
+			
+			double product = number * (array.length - j);
+			double subtract = product - negativeSum;
+			
+			if(subtract > maxSum){
+				maxSum = subtract;
+			}
+			
+			negativeSum += number;	
 		}
 		
-		System.out.println(list);
+		System.out.println(Math.round(maxSum));
+		
+		}
 	
     	scanner.close();
     }

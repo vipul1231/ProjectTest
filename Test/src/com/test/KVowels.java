@@ -32,7 +32,7 @@ public class KVowels {
 			List<String> symbol = new ArrayList<>();
 			for(int j=0;j<length;j++){
 				if(vowels.contains(array[j])){
-					indexes.add(j+1);
+					indexes.add(j);
 					symbol.add(array[j]);
 				}
 			}
@@ -40,61 +40,55 @@ public class KVowels {
 			System.out.println(indexes);
 			System.out.println(symbol);
 			
-			int largest = -1;
 			int candyCounter = 0;
-			
 			int max = 0;
 			
 			Set<String> candyEaten = new HashSet<>();
 			for(int k=0;k<indexes.size();k++){
 				
-				for(int h = k;h<indexes.size();h++){
-					int index = indexes.get(h);
-					String candy = symbol.get(h);
+				int count = k;
+				while(true){
+					
+					if(count == indexes.size()){
+						break;
+					}
+					
+					int index = indexes.get(count);
+					String candy = symbol.get(count);
 					
 					if(candyEaten.contains(candy)){
+						count++;
 						continue;
 					}
 					else if(candyCounter == candlesToPick && !candyEaten.contains(candy)){
-						int diff = (index-1) - k;
-						if(diff > max){
-							max = diff;
-							break;
-						}	
-					}
-					
-					candyEaten.add(candy);
-					candyCounter++;	
-				}
-			}
-			
-			
-			/**
-			 * if(first == 0){
-					while(true){
 						
-						int endPostion = indexes.get(k+candlesToPick);
-						String fCandyType = symbol.get(k+candlesToPick);
-						String currentCandyType = symbol.get(k);
-						
-						
-						if(fCandyType != currentCandyType){
-							int diff = (endPostion-1) - first;
+						if(k==0){
+							int diff = (index-1) - k;
 							if(diff > max){
 								max = diff;
 								break;
 							}	
 						}
-						candyCounter++;
+						else {
+							int diff = (index-1) - indexes.get(k-1);
+							if(diff > max){
+								max = diff;
+								break;
+							}
+						}
+							
 					}
 					
-					first = 1;
+					candyEaten.add(candy);
+					candyCounter++;
+					count++;	
 				}
-			 * 
-			 */
+				candyEaten.clear();
+				candyCounter = 0;
+			}
 			
 			
-			System.out.println(largest);
+			System.out.println(max);
 		}
 	
 		scanner.close();
