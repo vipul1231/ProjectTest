@@ -12,11 +12,8 @@ public class SortOnce {
 	
 	
 	private void sortTheArray(){
-		int index1 = 0,index2=1,index3=2;
 		
 		for(int i=0;i<array.length;i++){
-			
-			int number = array[i];
 			
 			if( i==0 ){
 				int count = 0;

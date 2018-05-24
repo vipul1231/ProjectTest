@@ -32,7 +32,9 @@ public void display()
 	}
 }
 }
-public class Y{
+public class Y {
+	
+	
 	public static void main(String ar[])
 	{
 		X x=new X();

@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Anagram{
 	
 	
-	private void createAnagram(String word, List<String> words){
+	protected void createAnagram(String word, List<String> words){
 		
 		StringBuilder stringBuilder = new StringBuilder();
 		
@@ -40,7 +40,7 @@ public class Anagram{
 	}
 	
 	
-	private void getObject(String value){
+    protected void getObject(String value){
 		List<String> list = new ArrayList<>();
 		String[] array = value.split("");
 		for(int i=0;i<array.length;i++){

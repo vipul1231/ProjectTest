@@ -30,6 +30,6 @@ public class ZeroSum {
 	
 	public static void main(String... args){
 		ZeroSum zeroSum = new ZeroSum();
-		zeroSum.findZeroSum();
+		System.out.println(zeroSum.findZeroSum());
 	}
 }

@@ -19,6 +19,16 @@ public class StreamTest {
 		//Stream of array
 		System.out.println();
 		Integer[] array= {1,2,4,6,7,0};
+		
+		List<Integer> list123 = new ArrayList<>();
+		list123.add(1);
+		list123.add(2);
+		list123.add(3);
+		list123.add(4);
+		
+		
+		int[] simpleArray = list123.stream().mapToInt(Integer::intValue).toArray();
+		
 		Stream<Integer> stream1 = Stream.of(array);
 		stream1.forEach(i -> System.out.print(i+" "));
 		
@@ -65,6 +75,10 @@ public class StreamTest {
 		memberNames.add("Yana");
 		memberNames.add("Lokesh");
 		
+		System.out.println();
+		memberNames.parallelStream().forEach(System.out::print);
+		System.out.println();
+		
 		List<String>  result1 = memberNames.stream().filter(i -> !i.equals("Shekhar")).collect(Collectors.toList());
 		System.out.println(result1);
 		
@@ -88,5 +102,12 @@ public class StreamTest {
 		
 		Optional<String> present =  memberNames.stream().reduce((word1,word2) -> word1.length() > word2.length() ? word1:word2);
 		present.ifPresent(System.out::println);
+		
+		System.out.println();
+		
+		IntStream.range(1, 50).parallel().forEach(i -> System.out.print(i+" "));
+		System.out.println();
+		IntStream.range(1, 50).forEach(i -> System.out.print(i+" "));
+		
 	}
 }

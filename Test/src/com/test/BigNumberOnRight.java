@@ -11,7 +11,7 @@ public class BigNumberOnRight {
 		System.out.println(obj);
 	}
 	
-	private int[] replaceNumberOnRight(){
+    int[] replaceNumberOnRight(){
 	
 		int currentMax = 0;
 		for(int i=array.length-1;i>=0;i--){

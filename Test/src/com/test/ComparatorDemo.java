@@ -29,9 +29,13 @@ class Invertor{
 
 public class ComparatorDemo {
 	
+	protected void demo(){
+		System.out.println();
+	}
+	
 	public static void main(String[] args){
 		ComparatorDemo demo = new ComparatorDemo();
-		PriorityQueue<Invertor> list = new PriorityQueue<>();
+		PriorityQueue<Invertor> list = new PriorityQueue<>(demo.returnComparator());
 		list.add(new Invertor(3,"Akaya","2.2.1"));
 		list.add(new Invertor(1,"Abc","1.0"));
 		list.add(new Invertor(2,"Luminious","3.0.1"));
@@ -39,8 +43,9 @@ public class ComparatorDemo {
 		
 		System.out.println(list);
 		
-		for(Invertor ivr : list){
-			System.out.print(ivr.id+" ");
+		while(list.size()!=0){
+			Invertor invertor = list.poll(); 
+			System.out.println(invertor.id+" "+invertor.name);
 		}
 		
 //		list.sort(demo.returnComparator());
@@ -59,7 +64,7 @@ public class ComparatorDemo {
 			@Override
 			public int compare(Invertor o1, Invertor o2) {
 				// TODO Auto-generated method stub
-				return o1.id - o2.id;
+				return  o1.id - o2.id;
 			}
 		};
 		

@@ -34,12 +34,9 @@ public class MapValuesSort {
 		map.put("Harish", 76);
 		
 		System.out.println(map);
-		
 		LinkedList<Entry<String,Integer>> list = new LinkedList<>(map.entrySet());
-		
 		Collections.sort(list,obj.returnComp());
-		
-		System.out.println(list);
+		System.out.println(map);
 		
 	}
 }

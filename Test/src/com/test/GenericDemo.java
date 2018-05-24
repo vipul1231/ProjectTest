@@ -3,6 +3,8 @@ package com.test;
 
 
 class Bound<T extends Abs>{
+	
+	
 
 	private T objectRef;
 	
@@ -13,10 +15,6 @@ class Bound<T extends Abs>{
 	public void doRunTest(){
 		this.objectRef.getMethod();
 	}	
-}
-
-class superBound{
-	
 }
 
 class Abs {
